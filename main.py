@@ -22,7 +22,7 @@ app = FastAPI(title="Image Scraper API")
 # CORS middleware for frontend (adjust for production)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173","https://image-scrabing-1.onrender.com"], 
+    allow_origins=["https://image-scrabing-1.onrender.com"], 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
