@@ -36,3 +36,11 @@ typing_extensions==4.15.0
 urllib3==2.6.3
 uvicorn==0.41.0
 yarl==1.22.0
+libgtk-4.so.1              
+libgraphene-1.0.so.0       
+libgstgl-1.0.so.0          
+libgstcodecparsers-1.0.so.0
+libmanette-0.2.so.0        
+libenchant-2.so.2          
+libsecret-1.so.0           
+libGLESv2.so.2 
