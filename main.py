@@ -14,6 +14,7 @@ app = FastAPI(title="Image Scraper API")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+        "https://automate-1-gvsw.onrender.com",
         "http://localhost:5173",
     ],
     allow_credentials=True,
